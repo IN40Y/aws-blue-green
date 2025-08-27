@@ -1,8 +1,11 @@
+
 # Terraform AWS Blue-Green Deployment Demo
 
 A Terraform project demonstrating a zero-downtime blue-green deployment strategy on AWS using Auto Scaling Groups, an Application Load Balancer, and weighted Route53 records.
 
 ## Architecture
+
+<img width="460" height="408" alt="blue-green-archi" src="https://github.com/user-attachments/assets/fe22f46d-ea02-43a2-bbda-a945f77586bb" />
 
 - **Blue Environment**: Serves live traffic (weight=100).
 - **Green Environment**: Staging environment for new versions (weight=0).
